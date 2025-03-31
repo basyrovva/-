@@ -53,10 +53,13 @@ body {
     align-items: center;
 }
 
-.flow img, .text img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 70%;
+.text p{
+    font-family: "Bitter";
+    color: rgb(96, 110, 81);
+    font-size: 48px;
+    letter-spacing: 10%;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(156, 156, 156, 0.692);
 }
 
 .text{
@@ -65,3 +68,31 @@ body {
 footer {
     height: 100px;
 }
+.timer {
+    display: grid;
+    grid-template-columns: 4.5rem 0.5rem 4.5rem 0.5rem 4.5rem 0.5rem 4.5rem;
+    font-size: 3rem;
+    justify-items: center;
+    font-family: "Bitter";
+    color: rgba(82, 103, 61, 1);
+  }
+  
+  .timer__item {
+    position: relative;
+  }
+  
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.875rem;
+    color: #424242;
+  }
+  .timer-cont{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
