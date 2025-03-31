@@ -1,0 +1,57 @@
+@media screen and (max-width:850px){
+    .container {
+        width: 100%;
+    } 
+    .date img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+    }
+}
+@media screen and (min-width:850px){
+    .container {
+        width: 70%;
+    } 
+    .date img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+    }
+}
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cont img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.flow, .text, .cont, .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flow img, .text img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+}
+
+.text{
+    margin: 20px;
+}
+footer {
+    height: 100px;
+}
