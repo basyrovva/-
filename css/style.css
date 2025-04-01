@@ -7,10 +7,15 @@
         background-size: cover;
         width: 80%;
     }
-    .flow img, .text img, .photo img{
+    .flow img, .text img{
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
+    }
+    .photo img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 32%;
     }
     .timer {
         margin-top: 5%;
@@ -47,7 +52,7 @@
         justify-content: center;
         align-items: center;
     }
-    .date{
+    .date, .palace{
         h3{
             font-family: "Bitter";
         color: rgba(156, 171, 140, 1);
@@ -83,7 +88,7 @@
     .photo img{
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
+        width: 30%;
     }
     .timer {
         margin-top: 5%;
@@ -120,7 +125,7 @@
         justify-content: center;
         align-items: center;
     }
-    .date{
+    .date, .palace{
         h3{
             font-family: "Bitter";
         color: rgba(156, 171, 140, 1);
@@ -191,6 +196,9 @@ footer {
     margin: 2%;
     margin-top: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+  }
+  .palace{
+    margin-top: 10%;
   }
